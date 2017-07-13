@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{f427d865-56c0-42f2-b30d-9c0de795a71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Property Sheet">
+      <UniqueIdentifier>{df51acb0-98de-407d-8361-86bc374bc798}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="times.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadPNG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="times.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loadPNG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\debug.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\debug.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\gbuffer.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\gbuffer.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\quad.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\quad.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\splat.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\splat.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\stencil.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\stencil.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Dev\The5_Libraries_Kompie4.props">
+      <Filter>Property Sheet</Filter>
+    </None>
+    <None Include="shader\standard.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\standard.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\standardMiniColorFBO.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\standardMiniColorFBO.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\fboNormalDepth.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\fboNormalDepth.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\standardMiniDepthFBO.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\standardMiniDepthFBO.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\mapDome.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\mapDome.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\interactiveRefraction.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\interactiveRefraction.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\standardPhong.fs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\standardPhong.vs.glsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="data\teapot.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="data\Teapot_1x1x1_UVs.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
